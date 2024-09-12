@@ -1,6 +1,6 @@
-module.exports = {
+odule.exports = {
 config: {
-  name: "spotify",
+  name: "rana",
   version: "0.0.2",
   permission: 0,
   prefix: true,
