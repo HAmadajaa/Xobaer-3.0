@@ -48,7 +48,7 @@ module.exports.run = async function({ api, event, Users }) {
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://i.postimg.cc/9Qq5cxT8/lv-0-20240908094344.gif';
+    let gifUrl = 'https://postimg.cc/dLZn2k8Q';
 let gifPath = __dirname + '/Nayan/join/join.gif';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি রানা তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি পিচ্চি জুবায়ের তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -66,15 +66,15 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER : 𝗠𝗢𝗛𝗔𝗠𝗠𝗔𝗗 𝗥𝗔𝗡𝗔 
+DEVELOPER : Xobaer Zone 
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/100063487970328
+https://www.facebook.com/XobaerAhmad?mibextid=ZbWKwL
 
-🔵WHATSAPP NUMBER: wa.me/+8801752865115
+🔵WHATSAPP NUMBER: wa.me/+201061284766
 
-🟢SUPPORT EMAIL: ranacyber910@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢SUPPORT EMAIL: officialxobaer2007@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
@@ -106,11 +106,11 @@ https://www.facebook.com/100063487970328
         let avtAnime = (await axios.get(encodeURI(
           `https://graph.facebook.com/${event.logMessageData.addedParticipants[o].userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`), { responseType: "arraybuffer" })).data;
         var ok = [
-          'https://i.imgur.com/kuSLl6A.jpeg',
-          'https://i.imgur.com/kuSLl6A.jpeg',
-          'https://i.imgur.com/kuSLl6A.jpeg',
-          'https://i.imgur.com/kuSLl6A.jpeg',
-          'https://i.imgur.com/kuSLl6A.jpeg'
+          'https://imgur.com/a/pVLjLqN',
+          'https://imgur.com/a/pVLjLqN',
+          'https://imgur.com/a/pVLjLqN',
+          'https://imgur.com/a/pVLjLqN',
+          'https://imgur.com/a/pVLjLqN'
         ]
         let background = (await axios.get(encodeURI(`${ok[Math.floor(Math.random() * ok.length)]}`), { responseType: "arraybuffer", })).data;
         fs.writeFileSync(pathAva, Buffer.from(avtAnime, "utf-8"));
