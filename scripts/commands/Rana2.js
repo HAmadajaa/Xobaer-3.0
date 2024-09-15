@@ -1,7 +1,7 @@
 const fs = require("fs");
 module.exports = {
   config:{
-	name: "xobaer",
+	name: "npx2",
         version: "1.0.1",
         prefix: false,
 	permssion: 0,
@@ -19,7 +19,7 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const axios = require('axios')
 const media = (
     await axios.get(
-      'https://imgur.com/a/0Tt2rbw.mp4',
+      'https://imgur.com/FHz4OY7.mp4',
       { responseType: 'stream' }
     )
   ).data;
