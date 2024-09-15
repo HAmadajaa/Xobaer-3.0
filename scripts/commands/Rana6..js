@@ -1,4 +1,3 @@
-odule.exports = {
 config: {
   name: "rana",
   version: "0.0.2",
