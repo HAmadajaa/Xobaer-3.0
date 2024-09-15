@@ -1,6 +1,6 @@
 odule.exports = {
 config: {
-  name: "xobaer",
+  name: "rana",
   version: "0.0.2",
   permission: 0,
   prefix: true,
