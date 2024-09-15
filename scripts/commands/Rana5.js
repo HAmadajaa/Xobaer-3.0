@@ -26,9 +26,9 @@ const media = (
     )
   ).data;
 
-	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf("error-king")==0 || body.indexOf("rana")==0 || body.indexOf("")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
+	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf("error-king")==0 || body.indexOf("xobaer")==0 || body.indexOf("")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "_RANA 😕🫵",
+				body: "_Xobaer 😕🫵",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
