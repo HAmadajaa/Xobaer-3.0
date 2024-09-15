@@ -17,7 +17,7 @@ handleEvent: async function({ api, event, client, __GLOBAL }) {
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
   const axios = require('axios')
-  const NAYAN = ['https://streamable.com/xw3pe7','https://streamable.com/enr0hp']
+  const NAYAN = ['https://files.fm/u/3u8wgn4d5p','https://files.fm/u/jcuztnve9v']
     var rndm = NAYAN[Math.floor(Math.random() * NAYAN.length)];
 const media = (
     await axios.get(
