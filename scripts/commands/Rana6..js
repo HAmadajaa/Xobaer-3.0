@@ -6,7 +6,7 @@ config: {
   credits: "Nayan",
   description: "",
   category: "admin",
-  usages: "",
+  usages: "mp3",
     cooldowns: 5,
 },
 
